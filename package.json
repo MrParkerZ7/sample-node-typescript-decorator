@@ -1,5 +1,6 @@
 {
   "name": "sample_typescript_decorator",
+  "description": "I couldn't find another way without lerna lib. but, it should perfectly fine if you already use lerna",
   "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -36,6 +37,5 @@
         "lines": 100
       }
     }
-  },
-  "description": ""
+  }
 }
