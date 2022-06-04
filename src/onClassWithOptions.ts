@@ -24,7 +24,7 @@ export class ClassInitial {
   static secret: string;
   id: number | undefined;
 
-  @DecorFunction({ newSecret: "Puck is a new demon" })
+  @DecorFunction({ newSecret: "Puck is a evil message" })
   getStatic(type: "A" | "B" | undefined = undefined): string {
     return ClassInitial.secret;
   }
